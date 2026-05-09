@@ -1,33 +1,34 @@
 # Wazuh SIEM Deployment & Threat Monitoring
 
 **Project Overview**  
-Deployed and configured Wazuh (open-source SIEM) for centralized log monitoring, intrusion detection, and security event management in a multi-host lab environment.
+Deployed and configured Wazuh (an open-source Security Information and Event Management - SIEM) platform for centralized log monitoring, intrusion detection, and security event management.
 
 **Tools & Technologies**
 - Wazuh Manager
-- Wazuh Agents (on Ubuntu & Windows VMs)
+- Wazuh Agents (on Linux and Windows VMs)
 - Kali Linux
 - File Integrity Monitoring (FIM)
 
 **Key Activities**
-- Installed Wazuh Manager and multiple Agents
-- Configured log monitoring for authentication logs and system events
-- Set up File Integrity Monitoring to detect unauthorized file changes
-- Created custom alerts for brute-force attempts and suspicious activities
-- Visualized security events through the Wazuh dashboard
+- Installed and configured Wazuh Manager and multiple Agents
+- Set up log monitoring for authentication logs and system events
+- Configured File Integrity Monitoring to detect unauthorized changes
+- Created custom alerts for suspicious activities
+
+**Screenshots**
+
+![Wazuh Dashboard](wazuh-dashboard.png)
 
 **Key Achievements**
-- Successfully detected simulated brute-force attacks on SSH
-- Monitored and alerted on root login attempts
-- Tracked file modifications and suspicious processes
-- Gained practical experience with enterprise-grade SIEM solutions
+- Detected simulated brute-force attacks on SSH
+- Monitored root login attempts and file modifications
+- Visualized security events through the Wazuh dashboard
 
 **Skills Demonstrated**
 - SIEM deployment and configuration
 - Log analysis and correlation
-- Intrusion Detection System (IDS) usage
-- Security monitoring and alerting
-- Dashboard interpretation
+- Intrusion Detection
+- Alert tuning and monitoring
 
 **Learning Outcome**  
-This project gave me real hands-on experience with how Security Operations Centers (SOCs) monitor and respond to threats in real time.
+Gained practical experience with enterprise-grade security monitoring tools used in real SOC environments.
